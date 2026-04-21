@@ -1,14 +1,24 @@
-# Görsel Bilimsel Hesap Makinesi Projesi
+# BİLİMSEL HESAP MAKİNESİ (FLUTTER)
 
-Sayın Hocam,
-Projemi incelerken herhangi bir derleme aracı (Visual Studio C++ vb.) hatası almamak ve en stabil sonucu görmek için projeyi **Web (Chrome)** üzerinden çalıştırmanızı tavsiye ederim.
+Bu proje, Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü öğrencisi **Telman Bakhshaliyev (1030521111)** tarafından geliştirilmiştir. Uygulama, karmaşık matematiksel ifadeleri bilimsel standartlarda ve derece birimi desteğiyle hesaplamak üzere tasarlanmıştır.
 
-Projeyi test etmek için terminalde sırasıyla şu komutları kullanabilirsiniz:
+## 🚀 Web Üzerinde Çalıştırma (En Stabil Yöntem)
 
-1. Paketleri indirmek için:
+Projenin farklı işletim sistemlerindeki (Windows/macOS/Linux) olası derleme ve araç zinciri (toolchain) hatalarından etkilenmemesi için **Web (Chrome)** platformu üzerinde çalıştırılması tavsiye edilir. Flutter web desteği, uygulamanın görsel tasarımını ve fonksiyonelliğini herhangi bir ek kuruluma ihtiyaç duymadan en doğru şekilde yansıtmaktadır.
+
+### Çalıştırma Adımları:
+
+1. Proje ana dizininde terminali açın.
+2. Gerekli kütüphaneleri yüklemek için şu komutu çalıştırın:
    `flutter pub get`
-
-2. Tarayıcıda çalıştırmak için:
+3. Uygulamayı Chrome tarayıcısı üzerinde başlatmak için şu komutu kullanın:
    `flutter run -d chrome`
 
-*Not: Proje dosya boyutu küçültülerek teslim edilmiştir.*
+## 📂 Proje Yapısı Hakkında
+* **Ana Kodlar:** Uygulamanın tüm mantıksal ve görsel kodları `lib/main.dart` dosyası içerisindedir.
+* **Matematik Motoru:** `math_expressions` kütüphanesi kullanılarak algoritma geliştirilmiştir.
+* **Derece Desteği:** Trigonometrik fonksiyonlar için otomatik derece-radyan dönüşüm motoru eklenmiştir.
+
+---
+**Geliştirici:** Telman Bakhshaliyev
+**Öğrenci No:** 1030521111
