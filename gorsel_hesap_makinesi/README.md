@@ -1,17 +1,14 @@
-# gorsel_hesap_makinesi
+# Görsel Bilimsel Hesap Makinesi Projesi
 
-A new Flutter project.
+Sayın Hocam,
+Projemi incelerken herhangi bir derleme aracı (Visual Studio C++ vb.) hatası almamak ve en stabil sonucu görmek için projeyi **Web (Chrome)** üzerinden çalıştırmanızı tavsiye ederim.
 
-## Getting Started
+Projeyi test etmek için terminalde sırasıyla şu komutları kullanabilirsiniz:
 
-This project is a starting point for a Flutter application.
+1. Paketleri indirmek için:
+   `flutter pub get`
 
-A few resources to get you started if this is your first Flutter project:
+2. Tarayıcıda çalıştırmak için:
+   `flutter run -d chrome`
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*Not: Proje dosya boyutu küçültülerek teslim edilmiştir.*
